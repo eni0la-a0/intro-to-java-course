@@ -5,18 +5,34 @@ import java.util.*;
 public class CollectionsExercises {
 
     public LinkedList<Integer> useLinkedList() {
-        // TODO: create an empty linked list
+        // create an empty linked list
+        LinkedList<Integer> integers = new LinkedList<>();
+        integers.addFirst(4);
         //  - add 4 as the first element of the list
+        integers.add(5);
         //  - then add 5, 6, 8, 2, 9 to the list
+        integers.add(6);
+        integers.add(8);
+        integers.add(2);
+        integers.add(9);
+        integers.addLast(2);;
+        integers.add(2, 4);
+        System.out.println(integers.element());
+
+
+
         //  - add another 2 as the last element of the list
         //  - add 4 as the 3rd element of the list
         //  - invoke the method element() on the list and print the result on the screen
         //  - return the list
-        throw new RuntimeException("Not implemented");
+        // throw new RuntimeException("Not implemented")
+        return integers;
     }
 
     public Stack<Integer> useStack() {
         // TODO: create an empty stack
+        Stack<Integer> stack = new Stack<>()
+        
         //  - add 5, 6, 8, 9 to the stack
         //  - print the first element of the stack on the screen
         //  - print the last element of the stack on the screen
@@ -50,6 +66,7 @@ public class CollectionsExercises {
         //  - determine whether the map contains "English" as a language and print the result on the screen
         //  - return the map
         throw new RuntimeException("Not implemented");
+        
     }
 
     public String getName() {
